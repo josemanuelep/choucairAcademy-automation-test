@@ -21,4 +21,7 @@ public class EditProfile {
     public static final Target INPUT_PHONE2 = Target.the("Phone2 input").located(By.id("id_phone2"));
     public static final Target INPUT_ADDRESS = Target.the("Address input").located(By.id("id_address"));
     public static final Target BUTTON_SAVE_INFORMATION = Target.the("Button save").located(By.id("id_submitbutton"));
+    private EditProfile() {
+    }
+
 }

@@ -17,7 +17,7 @@ public class IsSavedEdit implements Question<Boolean> {
     }
     @Override
     public Boolean answeredBy(Actor actor) {
-        String label = LABEL_SAVED.resolveFor(actor).getText();
-        return (this.label.equals(label));
+        String labelEdit = LABEL_SAVED.resolveFor(actor).getText();
+        return (this.label.equals(labelEdit));
     }
 }
