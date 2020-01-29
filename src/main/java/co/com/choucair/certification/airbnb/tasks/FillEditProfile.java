@@ -6,10 +6,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.Hit;
-import net.serenitybdd.screenplay.actions.JavaScriptClick;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import net.serenitybdd.screenplay.waits.WaitUntilTargetIsReady;
 import org.openqa.selenium.Keys;
 
 import java.util.List;
@@ -17,7 +14,6 @@ import java.util.List;
 import static co.com.choucair.certification.airbnb.userinterface.EditProfile.*;
 import static co.com.choucair.certification.airbnb.util.Constants.INDEX_0;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isEnabled;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class FillEditProfile implements Task {
     private List<Information> informations;
