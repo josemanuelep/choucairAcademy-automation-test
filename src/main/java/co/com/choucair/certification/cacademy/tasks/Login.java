@@ -1,6 +1,6 @@
-package co.com.choucair.certification.airbnb.tasks;
+package co.com.choucair.certification.cacademy.tasks;
 
-import co.com.choucair.certification.airbnb.model.User;
+import co.com.choucair.certification.cacademy.model.User;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -9,8 +9,8 @@ import net.serenitybdd.screenplay.actions.Enter;
 
 import java.util.List;
 
-import static co.com.choucair.certification.airbnb.userinterface.LoginPage.*;
-import static co.com.choucair.certification.airbnb.util.Constants.INDEX_0;
+import static co.com.choucair.certification.cacademy.userinterface.LoginPage.*;
+import static co.com.choucair.certification.cacademy.util.Constants.INDEX_0;
 
 public class Login implements Task {
     private List<User> users;

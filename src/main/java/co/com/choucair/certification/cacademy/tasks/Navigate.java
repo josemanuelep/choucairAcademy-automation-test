@@ -1,11 +1,11 @@
-package co.com.choucair.certification.airbnb.tasks;
+package co.com.choucair.certification.cacademy.tasks;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
-import static co.com.choucair.certification.airbnb.userinterface.EditProfile.*;
+import static co.com.choucair.certification.cacademy.userinterface.EditProfile.*;
 
 public class Navigate implements Task {
 

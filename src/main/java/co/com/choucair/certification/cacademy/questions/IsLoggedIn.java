@@ -1,9 +1,9 @@
-package co.com.choucair.certification.airbnb.questions;
+package co.com.choucair.certification.cacademy.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
-import static co.com.choucair.certification.airbnb.userinterface.LoginPage.LABEL_LOGIN;
+import static co.com.choucair.certification.cacademy.userinterface.LoginPage.LABEL_LOGIN;
 
 public class IsLoggedIn implements Question<Boolean> {
 

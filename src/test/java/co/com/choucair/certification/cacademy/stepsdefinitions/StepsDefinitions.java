@@ -1,13 +1,13 @@
-package co.com.choucair.certification.airbnb.stepsdefinitions;
+package co.com.choucair.certification.cacademy.stepsdefinitions;
 
-import co.com.choucair.certification.airbnb.model.Information;
-import co.com.choucair.certification.airbnb.model.User;
-import co.com.choucair.certification.airbnb.questions.IsLoggedIn;
-import co.com.choucair.certification.airbnb.questions.IsSavedEdit;
-import co.com.choucair.certification.airbnb.tasks.FillEditProfile;
-import co.com.choucair.certification.airbnb.tasks.Login;
-import co.com.choucair.certification.airbnb.tasks.Navigate;
-import co.com.choucair.certification.airbnb.tasks.OpenThe;
+import co.com.choucair.certification.cacademy.model.Information;
+import co.com.choucair.certification.cacademy.model.User;
+import co.com.choucair.certification.cacademy.questions.IsLoggedIn;
+import co.com.choucair.certification.cacademy.questions.IsSavedEdit;
+import co.com.choucair.certification.cacademy.tasks.FillEditProfile;
+import co.com.choucair.certification.cacademy.tasks.Login;
+import co.com.choucair.certification.cacademy.tasks.Navigate;
+import co.com.choucair.certification.cacademy.tasks.OpenThe;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
