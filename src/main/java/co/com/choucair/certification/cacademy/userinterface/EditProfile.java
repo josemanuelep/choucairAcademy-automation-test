@@ -1,4 +1,4 @@
-package co.com.choucair.certification.airbnb.userinterface;
+package co.com.choucair.certification.cacademy.userinterface;
 
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.targets.Target;

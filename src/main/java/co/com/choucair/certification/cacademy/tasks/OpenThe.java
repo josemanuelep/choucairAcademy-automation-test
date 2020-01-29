@@ -1,6 +1,6 @@
-package co.com.choucair.certification.airbnb.tasks;
+package co.com.choucair.certification.cacademy.tasks;
 
-import co.com.choucair.certification.airbnb.userinterface.HomePage;
+import co.com.choucair.certification.cacademy.userinterface.HomePage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

@@ -1,4 +1,4 @@
-package co.com.choucair.certification.airbnb.util;
+package co.com.choucair.certification.cacademy.util;
 
 import cucumber.api.java.Before;
 import net.serenitybdd.screenplay.actors.OnStage;
