@@ -1,6 +1,6 @@
-package co.com.choucair.certification.airbnb.tasks;
+package co.com.choucair.certification.cacademy.tasks;
 
-import co.com.choucair.certification.airbnb.model.Information;
+import co.com.choucair.certification.cacademy.model.Information;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -11,8 +11,8 @@ import org.openqa.selenium.Keys;
 
 import java.util.List;
 
-import static co.com.choucair.certification.airbnb.userinterface.EditProfile.*;
-import static co.com.choucair.certification.airbnb.util.Constants.INDEX_0;
+import static co.com.choucair.certification.cacademy.userinterface.EditProfile.*;
+import static co.com.choucair.certification.cacademy.util.Constants.INDEX_0;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isEnabled;
 
 public class FillEditProfile implements Task {

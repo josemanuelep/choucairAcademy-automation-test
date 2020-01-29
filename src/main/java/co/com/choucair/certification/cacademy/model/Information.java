@@ -1,4 +1,4 @@
-package co.com.choucair.certification.airbnb.model;
+package co.com.choucair.certification.cacademy.model;
 
 public class Information {
     private String description;

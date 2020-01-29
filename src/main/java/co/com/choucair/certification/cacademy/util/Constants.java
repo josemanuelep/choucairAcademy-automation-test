@@ -1,4 +1,4 @@
-package co.com.choucair.certification.airbnb.util;
+package co.com.choucair.certification.cacademy.util;
 
 public class Constants {
     public static final String URL = "https://operacion.choucairtesting.com/academy/login/index.php";
