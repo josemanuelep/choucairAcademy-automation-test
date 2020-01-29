@@ -6,9 +6,9 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/features/",
+@CucumberOptions(features = "src/test/resources/features/ChoucairAcademy.feature",
         tags = "@Tag2",
-        glue = {"co.com.choucair.certification.mercurytours.stepsdefinitions", "co.com.choucair.certification.mercurytours.util"},
+        glue = {"co.com.choucair.certification.airbnb.stepsdefinitions", "co.com.choucair.certification.airbnb.util"},
         snippets = SnippetType.CAMELCASE)
 public class RunnerTags {
 }
